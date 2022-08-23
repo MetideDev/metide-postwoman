@@ -349,6 +349,7 @@ export default {
 
   // Router configuration (https://nuxtjs.org/api/configuration-router)
   router: {
+    base: "/metide-postwoman/",
     linkActiveClass: "active-link",
     linkExactActiveClass: "exact-active-link",
   },
