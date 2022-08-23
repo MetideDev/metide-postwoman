@@ -15,7 +15,8 @@
     "typecheck": "pnpm -r do-typecheck",
     "lintfix": "pnpm -r do-lintfix",
     "pre-commit": "pnpm -r do-lint && pnpm -r do-typecheck",
-    "test": "pnpm -r do-test"
+    "test": "pnpm -r do-test",
+    "deploy": "push-dir --dir=packages/hoppscotch-app/dist --branch=gh-pages --cleanup"
   },
   "workspaces": [
     "./packages/*"

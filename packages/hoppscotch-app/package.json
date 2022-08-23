@@ -31,8 +31,7 @@
     "do-lint": "pnpm run lint",
     "do-lintfix": "pnpm run lintfix",
     "do-test": "pnpm run test",
-    "gql-codegen": "graphql-codegen --config gql-codegen.yml",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "gql-codegen": "graphql-codegen --config gql-codegen.yml"
   },
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.0.3",
